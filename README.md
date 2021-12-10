@@ -16,8 +16,11 @@ This text mining project was inspired by a paper by Meng et al published in 2011
 ## [Text Classification of News Articles using FS-CHICLUST and Naive-Baiyes](https://github.com/rahmadiridwan/NLP-with-Scikit-Learn/blob/main/MNB_FCD.ipynb)
 https://github.com/rahmadiridwan/NLP-with-Scikit-Learn/blob/main/MNB_FCD.ipynb
 
-This text mining project was inspired by a paper by Sarkar et al published in 2014 titled "A Novel Feature Selection Technique for Text Classification Using Naive Bayes" (https://www.researchgate.net/publication/285463155_A_Novel_Feature_Selection_Technique_for_Text_Classification_Using_Naive_Bayes) 
-where a two stage feature selection method called FS-CHICLUST is implemented before applying Multinomial Naive-Bayes to classify text data. This project is my attempt to emulate the implementation of FS-CHICLUST along with the Naive-Bayes classifier using the same Indonesian news articles dataset I used previously (when I attempted to implement FCD as the feature selection technique using the Naive-Bayes classifier). I did this project as my capstone project for my undergraduate dissertation
+This text mining project was inspired by a paper by Sarkar et al published in 2014 titled "A Novel Feature Selection Technique for Text Classification Using Naive Bayes" 
+
+(https://www.researchgate.net/publication/285463155_A_Novel_Feature_Selection_Technique_for_Text_Classification_Using_Naive_Bayes) 
+
+A two stage feature selection method called FS-CHICLUST is implemented before applying Multinomial Naive-Bayes to classify text data. This project is my attempt to emulate the implementation of FS-CHICLUST along with the Naive-Bayes classifier using the same Indonesian news articles dataset I used previously (when I attempted to implement FCD as the feature selection technique using the Naive-Bayes classifier). I did this project as my capstone project for my undergraduate dissertation
 
 * The text dataset provided for this project is an Indonesian news dataset consisting of 200 samples and 5 categories (with each category each consisting of 40 samples)
 * At the text pre-processing stage, stopwords (in Indonesian) and punctuation marks are removed (using the nltk stopwords and the re libraries respectively) from the dataset and the text data is then stemmed and tokenized accordingly
